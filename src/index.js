@@ -62,8 +62,8 @@ var polygonPoints = [
 // var poly = L.polygon(polygonPoints).addTo(map);
 
 L.geoJSON(sanFrancisco).addTo(map);
-L.geoJSON(berkeley).addTo(map);
-L.geoJSON(oakland).addTo(map);
+L.geoJSON(berkeley, {fillColor: '#fc3d03'}).addTo(map);
+L.geoJSON(oakland, {fillColor: '#fc3d03'}).addTo(map);
 L.geoJSON(sanMateo).addTo(map);
 
 
